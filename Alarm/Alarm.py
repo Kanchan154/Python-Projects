@@ -19,7 +19,7 @@ def set_alarm():
         current_time = now.strftime("%H:%M:%S")
 
         if current_time == alarm_time:
-            print("Wake up!")
+            print("Wake up you Bloody Lazy Girl!!")
             playsound(ALARM_SOUND)
             break
 
