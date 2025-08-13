@@ -32,7 +32,7 @@ def create_pdf(filename, title, content, image_path=None):
         pdf.image(image_path, x=30, w=150)  # Adjust position & size as needed
 
     pdf.output(filename)
-    print(f"✅ PDF '{filename}' created successfully!")
+    print(f"✅ PDF '{filename}' Created Successfully!!")
 
 if __name__ == "__main__":
     # User input
